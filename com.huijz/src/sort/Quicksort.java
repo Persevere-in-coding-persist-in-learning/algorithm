@@ -28,7 +28,7 @@ import java.util.Arrays;
  */
 public class Quicksort {
     public static void main(String[] args) {
-        int[] arr = {11, 22, 13, 16, 17, 18, 45, 89, 10};
+        int[] arr = {11, 22, 22, 13, 16, 17, 18, 45, 89, 10};
         quickSort(arr, 0, arr.length - 1);
         System.out.println(Arrays.toString(arr));
     }
